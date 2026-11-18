@@ -1,0 +1,15 @@
+name: ArtifactsSMP
+version: '1.0.0'
+main: com.smp.artifacts.ArtifactsPlugin
+api-version: '1.21'
+description: Artifacts that each have a passive, an ability and an awakening.
+commands:
+  artifact:
+    description: Give artifacts and manage power
+    usage: /<command> <give|power|list>
+    permission: artifacts.admin
+    aliases: [artifacts]
+permissions:
+  artifacts.admin:
+    description: Lets you give artifacts and edit player power
+    default: op
